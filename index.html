@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shella Dacanay | Virtual Assistant Portfolio</title>
+    <meta name="description"
+        content="Entry-Level Virtual Assistant specializing in Data Entry, Administrative Support, Internet Research and Organization.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ==========================================
+                HEADER
+========================================== -->
+<header>
+    <div class="container">
+        <nav>
+            <a href="#home" class="logo">Shella<span>.</span></a>
+
+            <button id="mobileToggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul id="navList">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Portfolio</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="assets/resume.pdf" class="resume-btn" download>Download Resume</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ==========================================
+                HERO
+========================================== -->
+<section class="hero" id="home">
+
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+    <div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+
+    <div class="container hero-inner">
+
+        <div class="hero-left">
+            <span class="eyebrow">Hello, I'm <strong>Shella</strong><span class="dot">.</span></span>
+            <h1 class="headline">Productive Virtual Assistant
+                <span class="accent">Organized. Efficient. Remote-ready.</span>
+            </h1>
+            <p class="lead">I help founders and small teams stay focused by handling data, inboxes, scheduling, and automation with care.</p>
+
+            <div class="hero-cta">
+                <a href="#projects" class="btn">View Work</a>
+                <a href="#contact" class="btn-outline">Hire Me</a>
+            </div>
+
+            <div class="hero-meta">
+                <div class="meta-item"><strong>8+</strong><span>Projects</span></div>
+                <div class="meta-item"><strong>5+</strong><span>Certificates</span></div>
+                <div class="meta-item"><strong>Reliable</strong><span>Remote-ready</span></div>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="blob blob-1" aria-hidden="true"></div>
+            <div class="blob blob-2" aria-hidden="true"></div>
+
+            <div class="profile-card">
+                <img src="assets/images/profile.jpg" alt="Shella Dacanay" onerror="this.style.display='none'">
+                <div class="profile-badge">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <div>
+                        <h4>Fresh Graduate</h4>
+                        <p>Ready for Remote Work</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ==========================================
+                ABOUT
+========================================== -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-left reveal">
+                <span class="section-eyebrow">ABOUT ME</span>
+                <h2>Get to Know Me</h2>
+                <p class="about-lead">I combine organization with a curious technical mindset to help teams run smoother. From data cleanup to calendar management and simple automations — I tackle repetitive work so you can focus.</p>
+
+                <div class="skills-list">
+                    <span>Data Entry</span>
+                    <span>Google Workspace</span>
+                    <span>Calendar Management</span>
+                    <span>Email Management</span>
+                </div>
+            </div>
+
+            <div class="about-right reveal">
+                <div class="about-cards">
+                    <div class="card">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>Bachelor of Science in Information Systems</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-laptop"></i>
+                        <div>
+                            <h4>Specialization</h4>
+                            <p>Virtual Assistance &amp; Automation</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Remote — Flexible Hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+                SERVICES
+========================================== -->
+<section class="services" id="services">
+    <div class="container">
+
+        <div class="section-title reveal">
+            <span>MY SERVICES</span>
+            <h2>How I Can Help Your Business</h2>
+            <p>
+                I provide reliable virtual assistance to help business owners save
+                time, stay organized, and focus on growing their business.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-keyboard"></i>
+                <h3>Data Entry</h3>
+                <p>Accurate and organized data entry using Microsoft Excel, Google Sheets, and online databases.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h3>Internet Research</h3>
+                <p>Research products, competitors, suppliers, and online information with organized reports.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email Management</h3>
+                <p>Organize inboxes, create folders, label emails, and help keep communication efficient.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h3>Calendar Management</h3>
+                <p>Schedule appointments, organize meetings, and keep your daily calendar up to date.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-folder-open"></i>
+                <h3>File Organization</h3>
+                <p>Create organized folder structures in Google Drive and Microsoft OneDrive for easy access.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-file-word"></i>
+                <h3>Document Formatting</h3>
+                <p>Format Word documents, Excel spreadsheets, PowerPoint presentations, and PDFs professionally.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Canva Design</h3>
+                <p>Design simple social media posts, presentations, posters, and marketing materials using Canva.</p>
+            </div>
+
+            <div class="service-card reveal">
+                <i class="fa-solid fa-robot"></i>
+                <h3>AI Productivity</h3>
+                <p>Use ChatGPT and AI tools to improve productivity, writing, research, and workflow efficiency.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+                SKILLS
+========================================== -->
+<section class="skills" id="skills">
+    <div class="container">
+
+        <div class="section-title reveal">
+            <span>MY SKILLS</span>
+            <h2>Tools &amp; Skills I Use Every Day</h2>
+            <p>
+                I continuously improve my skills to provide accurate,
+                organized, and reliable support for every client.
+            </p>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skills-left reveal">
+                <h3>Professional Skills</h3>
+                <div class="skill-tags">
+                    <span>Microsoft Word</span>
+                    <span>Microsoft Excel</span>
+                    <span>Google Sheets</span>
+                    <span>Google Docs</span>
+                    <span>PowerPoint</span>
+                    <span>Canva</span>
+                    <span>ChatGPT</span>
+                    <span>Typing</span>
+                    <span>Data Entry</span>
+                    <span>Internet Research</span>
+                    <span>Email Management</span>
+                    <span>Calendar Management</span>
+                    <span>Administrative Support</span>
+                    <span>Organization</span>
+                    <span>Attention to Detail</span>
+                    <span>Communication</span>
+                    <span>Time Management</span>
+                </div>
+            </div>
+
+            <div class="skills-right reveal">
+                <h3>Software &amp; Platforms</h3>
+                <div class="software-grid">
+                    <div class="software-card"><i class="fa-brands fa-microsoft"></i><p>Microsoft Office</p></div>
+                    <div class="software-card"><i class="fa-brands fa-google"></i><p>Google Workspace</p></div>
+                    <div class="software-card"><i class="fa-solid fa-file-excel"></i><p>Excel</p></div>
+                    <div class="software-card"><i class="fa-solid fa-table"></i><p>Google Sheets</p></div>
+                    <div class="software-card"><i class="fa-solid fa-envelope"></i><p>Gmail</p></div>
+                    <div class="software-card"><i class="fa-solid fa-folder"></i><p>Google Drive</p></div>
+                    <div class="software-card"><i class="fa-solid fa-palette"></i><p>Canva</p></div>
+                    <div class="software-card"><i class="fa-solid fa-robot"></i><p>ChatGPT</p></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+            PORTFOLIO SHOWCASE
+========================================== -->
+<section class="projects" id="projects">
+    <div class="container">
+
+        <div class="section-title reveal">
+            <span>PORTFOLIO</span>
+            <h2>Featured Projects</h2>
+            <p>
+                These are real projects I developed during my internship and academic
+                journey. They showcase my experience in software development,
+                automation, data management, and administrative support.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card reveal" data-project="project1">
+                <a href="assets/images/material-log-monitoring-system.png" class="project-link">
+                    <img src="assets/images/material-log-monitoring-system.png"
+                        alt="Material Log Monitoring and Inventory System">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Internship Project</span>
+                    <h3>Material Log Monitoring &amp; Inventory System</h3>
+                    <p>
+                        Developed a web-based inventory management system that enables
+                        users to monitor inventory, manage stock withdrawals,
+                        maintain accurate records, and generate reports for efficient
+                        material tracking.
+                    </p>
+                    <div class="project-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-project="project2">
+                <a href="assets/images/digital-appraisal-form.png" class="project-link">
+                    <img src="assets/images/digital-appraisal-form.png" alt="Digital Appraisal Form">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">System Development</span>
+                    <h3>Digital Appraisal Form</h3>
+                    <p>
+                        Designed and developed a digital appraisal form that
+                        simplifies employee evaluation, improves record organization,
+                        and minimizes manual paperwork.
+                    </p>
+                    <div class="project-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-project="project3">
+                <a href="assets/images/google-sheets-automation.png" class="project-link">
+                    <img src="assets/images/google-sheets-automation.png" alt="Google Sheets Automation">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Automation</span>
+                    <h3>Google Sheets Automation</h3>
+                    <p>
+                        Created an automated inventory management solution using
+                        Google Apps Script (JavaScript) that synchronizes data across
+                        multiple worksheets, reducing manual work and improving accuracy.
+                    </p>
+                    <div class="project-tools">
+                        <span>Google Sheets</span>
+                        <span>Apps Script</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-project="project4">
+                <a href="assets/images/inventory-monitoring-spreadsheet.png" class="project-link">
+                    <img src="assets/images/inventory-monitoring-spreadsheet.png" alt="Inventory Monitoring Spreadsheet">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Microsoft Excel</span>
+                    <h3>Inventory Monitoring Spreadsheet</h3>
+                    <p>
+                        Developed a structured inventory spreadsheet with formulas,
+                        stock monitoring, filtering, and organized reporting to
+                        improve inventory management and data accuracy.
+                    </p>
+                    <div class="project-tools">
+                        <span>Microsoft Excel</span>
+                        <span>Formulas</span>
+                        <span>Inventory Tracking</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+        CERTIFICATES
+========================================== -->
+<section class="certificates" id="certificates">
+    <div class="container">
+
+        <div class="section-title reveal">
+            <span>CERTIFICATES</span>
+            <h2>Certificates &amp; Achievements</h2>
+            <p>
+                These certificates represent my learning, internship experience,
+                and academic achievements that have strengthened my technical,
+                administrative, and communication skills.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <a href="assets/images/internship-certificate.jpg" class="certificate-link">
+                    <img src="assets/images/internship-certificate.jpg" alt="Program Developer Internship">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Internship</span>
+                    <h3>Program Developer Internship</h3>
+                    <p>
+                        Successfully completed my internship as a Program Developer,
+                        contributing to system development, documentation,
+                        testing, and software implementation.
+                    </p>
+                    <div class="project-tools">
+                        <span>Programming</span>
+                        <span>Documentation</span>
+                        <span>Internship</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <a href="assets/images/html-certificate.jpg" class="certificate-link">
+                    <img src="assets/images/html-certificate.jpg" alt="HTML Certificate">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Web Development</span>
+                    <h3>HTML Fundamentals</h3>
+                    <p>
+                        Completed training covering HTML structure, semantic elements,
+                        forms, tables, and webpage development.
+                    </p>
+                    <div class="project-tools">
+                        <span>HTML5</span>
+                        <span>Web Structure</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <a href="assets/images/css-certificate.jpg" class="certificate-link">
+                    <img src="assets/images/css-certificate.jpg" alt="CSS Certificate">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Web Development</span>
+                    <h3>CSS Fundamentals</h3>
+                    <p>Completed training in CSS styling, responsive design, typography, and layouts.</p>
+                    <div class="project-tools">
+                        <span>CSS3</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <a href="assets/images/javascript-certificate.jpg" class="certificate-link">
+                    <img src="assets/images/javascript-certificate.jpg" alt="JavaScript Certificate">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Programming</span>
+                    <h3>JavaScript Fundamentals</h3>
+                    <p>
+                        Completed training covering JavaScript basics, DOM manipulation,
+                        functions, variables, and events.
+                    </p>
+                    <div class="project-tools">
+                        <span>JavaScript</span>
+                        <span>Programming</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <a href="assets/images/research-presentation-certificate.jpg" class="certificate-link">
+                    <img src="assets/images/research-presentation-certificate.jpg" alt="Research Presentation Certificate">
+                </a>
+                <div class="project-content">
+                    <span class="project-tag">Research</span>
+                    <h3>Research Paper Presentation</h3>
+                    <p>
+                        Presented our capstone research project, demonstrating
+                        technical communication, teamwork, and presentation skills.
+                    </p>
+                    <div class="project-tools">
+                        <span>Presentation</span>
+                        <span>Research</span>
+                        <span>Communication</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+                EXPERIENCE
+========================================== -->
+<section class="experience" id="experience">
+    <div class="container">
+
+        <div class="section-title reveal">
+            <span>EXPERIENCE</span>
+            <h2>Education &amp; Professional Journey</h2>
+            <p>
+                Every experience has helped me build the organizational,
+                communication, and technical skills needed to become a reliable
+                Virtual Assistant.
+            </p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2026</span>
+                    <h3>Inventory Management System Developer (Intern)</h3>
+                    <h4>General Services Office (GSO)</h4>
+                    <p>
+                        Assisted in developing and testing an Inventory Management System.
+                        Worked with data organization, documentation, inventory records,
+                        and system validation while collaborating with the team.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023 - Present</span>
+                    <h3>Freelance Graphic Designer</h3>
+                    <h4>Self-Employed</h4>
+                    <p>
+                        Designed social media graphics, promotional materials,
+                        and simple branding content using Canva while communicating
+                        with clients and meeting deadlines.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2025</span>
+                    <h3>Sales Assistant</h3>
+                    <h4>Wholesale Store</h4>
+                    <p>
+                        Assisted customers, maintained accurate records,
+                        organized inventory, and provided excellent customer service
+                        in a fast-paced retail environment.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023</span>
+                    <h3>Production Assistant</h3>
+                    <h4>Small Printing Business</h4>
+                    <p>
+                        Supported daily production, prepared materials,
+                        organized orders, and ensured quality output while
+                        meeting customer deadlines.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+                WHY HIRE ME
+========================================== -->
+<section class="why-hire" id="why-hire">
+    <div class="container">
+
+        <div class="section-title reveal">
+            <span>WHY CHOOSE ME</span>
+            <h2>What I Bring to Your Business</h2>
+            <p>
+                I may be a fresh graduate, but I bring dedication,
+                professionalism, and a strong willingness to learn.
+            </p>
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card reveal">
+                <i class="fa-solid fa-check"></i>
+                <h3>Reliable</h3>
+                <p>I complete tasks on time and communicate clearly throughout the process.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Fast Learner</h3>
+                <p>I quickly adapt to new tools, systems, and workflows with minimal supervision.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <i class="fa-solid fa-list-check"></i>
+                <h3>Detail-Oriented</h3>
+                <p>I carefully review my work to ensure accuracy and reduce errors.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Time Management</h3>
+                <p>I organize priorities efficiently to meet deadlines consistently.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <i class="fa-solid fa-folder-tree"></i>
+                <h3>Highly Organized</h3>
+                <p>I keep files, documents, and digital workspaces neat and easy to manage.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Tech-Savvy</h3>
+                <p>Comfortable using Microsoft Office, Google Workspace, Canva, and AI tools.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+                CONTACT
+========================================== -->
+<section class="contact" id="contact">
+    <div class="container">
+
+        <div class="section-title reveal">
+            <span>CONTACT</span>
+            <h2>Let's Work Together</h2>
+            <p>
+                I'm currently looking for entry-level Virtual Assistant opportunities.
+                Feel free to contact me for freelance or full-time work.
+            </p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-info reveal">
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>shengpagaran03@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+63 956 516 1103</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Butuan City, Philippines</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <div>
+                        <h3>Availability</h3>
+                        <p>Available for Remote Work</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <form id="contact-form" class="contact-form reveal">
+                <input type="text" name="from_name" placeholder="Your Name" required>
+                <input type="email" name="from_email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">
+                    <span class="btn-text">Send Message</span>
+                </button>
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================
+                FOOTER
+========================================== -->
+<footer>
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                <a href="#home" class="logo">Shella<span>.</span></a>
+                <p>Entry-Level Virtual Assistant</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shengaiiii/" target="_blank" rel="noopener" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://t.me/shengxxaai" target="_blank" rel="noopener" aria-label="Telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="mailto:shengpagaran03@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">© 2026 Shella Dacanay. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- Back to top -->
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Project Modal -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeProjectModal">&times;</span>
+        <img id="modalImage" src="" alt="Project">
+        <span id="modalTag" class="project-tag"></span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <h3>Tools Used</h3>
+        <div id="modalTools" class="project-tools"></div>
+    </div>
+</div>
+
+<!-- Image Lightbox -->
+<div id="imageModal" class="image-modal">
+    <span class="close-image" id="closeImageModal">&times;</span>
+    <img id="modalImg" class="modal-image" alt="">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
